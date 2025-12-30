@@ -254,6 +254,9 @@ bool clock_face_loop(movement_event_t event, void *context) {
             break;
         case EVENT_ALARM_LONG_PRESS:
             clock_toggle_time_signal(state);
+            if (state->time_signal_enabled) {
+                movement_play_signal();
+            }
             break;
         case EVENT_BACKGROUND_TASK:
             // uncomment this line to snap back to the clock face when the hour signal sounds:
