@@ -79,4 +79,5 @@
 #include "lander_face.h"
 #include "simon_face.h"
 #include "ping_face.h"
+#include "party_face.h"
 // New includes go above this line.
