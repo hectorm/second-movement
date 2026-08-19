@@ -60,4 +60,6 @@ SRCS += \
   ./watch-faces/clock/solar_time_face.c \
   ./watch-faces/complication/tide_face.c \
   ./watch-faces/clock/world_clock2_face.c \
+  ./watch-faces/complication/party_face.c \
+  ./watch-faces/sensor/battery_life_face.c \
 # New watch faces go above this line.
